@@ -24,4 +24,9 @@ The shape should be drawn while dragging till the user releases the mouse button
 5. Clear All Button: The user should press this button to clear all of the drawings from the drawing area.
 6. Dotted Checkbox: If checked it lets the shape line stroke be dotted. If not checked, it lets the shape's line strokes be solid.
 7. Filled Checkbox: If checked, it lets the Rectangle or Oval shapes that will be drawn after be filled with the pre-selected color.
-8. If not check, it lest the shapes to be drawn as outlines only.
+  If not check, it lest the shapes to be drawn as outlines only.
+
+## Bonus:
+- Undo Button: It lets the user undo the previous action(s)
+- Save Button: It enables the user to save his drawings to a file as an image.
+- Open Button: It enables the user to load an image to the drawing area
