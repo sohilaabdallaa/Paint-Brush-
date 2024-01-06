@@ -14,11 +14,11 @@ import javax.swing.border.TitledBorder;
  *
  * @author Welcome
  */
-public class Mycolors extends JPanel implements ActionListener {
+public class MyColors extends JPanel implements ActionListener {
     JButton red, black, green, orange, blue, pink, brown, yellow, white, cyan, purple, gray, indigo;
     MyFrame frame;
 
-    public Mycolors(MyFrame frame) {
+    public MyColors(MyFrame frame) {
         this.frame = frame;
         red = new JButton("");
         red.setSize(25, 25);
