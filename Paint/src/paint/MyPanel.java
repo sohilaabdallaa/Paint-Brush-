@@ -5,7 +5,7 @@ import java.awt.Graphics;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
-import java.util.Stack;
+
 import javax.swing.JPanel;
 
 /**
@@ -29,7 +29,7 @@ public class MyPanel extends JPanel implements MouseListener, MouseMotionListene
     }
 
     // overloaded constructor
-    MyPanel(MyFrame frame, int paintPanelWidth, int paintPanelHeight) {
+    MyPanel(MyFrame frame) {
         this.frame = frame;
         this.paintPanelWidth = paintPanelWidth;
         this.paintPanelHeight = paintPanelHeight;
