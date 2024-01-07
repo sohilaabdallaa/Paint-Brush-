@@ -1,8 +1,8 @@
 package paint;
 
-import java.awt.BorderLayout;
 import javax.swing.*;
-import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
+import java.awt.*;
+
 
 public class MyFrame extends JFrame {
 
@@ -11,6 +11,7 @@ public class MyFrame extends JFrame {
 
 
     public MyFrame() {
+        // create a panel for painting
         paintPanel = new MyPanel(this);
 
         paintControl = new PaintControl(this);
@@ -19,7 +20,7 @@ public class MyFrame extends JFrame {
 
         add(paintControl, BorderLayout.NORTH);
 
-        // set a default closer of window
+        //set a default closer of window
         setDefaultCloseOperation(EXIT_ON_CLOSE);
     }
 

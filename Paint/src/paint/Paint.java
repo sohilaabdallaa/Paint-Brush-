@@ -1,7 +1,6 @@
 package paint;
 
 import java.awt.Frame;
-import javax.swing.JFrame;
 
 
 public class Paint {

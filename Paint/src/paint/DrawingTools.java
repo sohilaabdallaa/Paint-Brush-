@@ -21,7 +21,7 @@ class DrawingTools extends JPanel {
         DrawingTools(MyFrame frame) {
 
             JButton pencil = new JButton("");
-            ImageIcon pencilPic = new ImageIcon(Objects.requireNonNull(getClass().getResource("assets/icons/pencil.png")));
+            ImageIcon pencilPic = new ImageIcon(Objects.requireNonNull(getClass().getResource("/Images/pencil.png")));
             pencil.addActionListener(new AbstractAction() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
@@ -31,7 +31,7 @@ class DrawingTools extends JPanel {
             pencil.setIcon(pencilPic);
 
             JButton eraser = new JButton("");
-            ImageIcon eraserPic = new ImageIcon(Objects.requireNonNull(getClass().getResource("assets/icons/eraser.png")));
+            ImageIcon eraserPic = new ImageIcon(Objects.requireNonNull(getClass().getResource("/Images/eraser.png")));
             eraser.setIcon(eraserPic);
             eraser.addActionListener(new AbstractAction() {
                 @Override

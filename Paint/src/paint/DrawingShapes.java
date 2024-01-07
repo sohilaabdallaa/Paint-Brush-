@@ -17,11 +17,11 @@ import javax.swing.border.TitledBorder;
  *
  * @author Lap Smart
  */
- class DrawingShapes extends JPanel {
+ public class DrawingShapes extends JPanel {
 
         DrawingShapes(MyFrame frame) {
             JButton circleBtn = new JButton("");
-            circleBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("assets/icons/circle.png"))));
+            circleBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("/Images/Oval.png"))));
             circleBtn.setPreferredSize(new Dimension(30, 30));
             circleBtn.addActionListener(new AbstractAction() {
                 @Override
@@ -32,7 +32,7 @@ import javax.swing.border.TitledBorder;
             add(circleBtn);
 
             JButton rectangleBtn = new JButton("");
-            rectangleBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("assets/icons/rectangle.png"))));
+            rectangleBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("/Images/rectangle.png"))));
             rectangleBtn.setPreferredSize(new Dimension(30, 30));
             rectangleBtn.addActionListener(new AbstractAction() {
                 @Override
@@ -43,7 +43,7 @@ import javax.swing.border.TitledBorder;
             add(rectangleBtn);
 
             JButton lineBtn = new JButton("");
-            lineBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("assets/icons/line.png"))));
+            lineBtn.setIcon(new ImageIcon(Objects.requireNonNull(getClass().getResource("/Images/line.png"))));
             lineBtn.setPreferredSize(new Dimension(30, 30));
             lineBtn.addActionListener(new AbstractAction() {
                 @Override
